@@ -1,0 +1,26 @@
+# POST http://localhost:3001/api/projects
+# Content-Type: application/json
+
+# {
+#   "name": "Project B",
+#   "description": "Optional",
+#   "owner": "692059fddd7d9d1e1b5d2a54",
+#   "member": ["69205a1cdd7d9d1e1b5d2a57", "69205b2cdd7d9d1e1b5d2a5c"]
+# }
+
+# GET http://localhost:3001/api/projects/6921c999e240d7506046bf2f
+# Content-Type: application/json
+
+
+# DELETE http://localhost:3001/api/projects/6921ca0026c7c3d31a80d9c3
+# Content-Type: application/json
+
+PUT http://localhost:3001/api/projects/6921cd31d6107e9d33298489
+Content-Type: application/json
+
+{
+  "name": "Project F",
+  "description": "Optional",
+  "owner": "692059fddd7d9d1e1b5d2a54",
+  "member": ["69205a1cdd7d9d1e1b5d2a57", "69205b2cdd7d9d1e1b5d2a5c"]
+}

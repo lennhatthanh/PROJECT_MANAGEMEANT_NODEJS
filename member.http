@@ -1,0 +1,21 @@
+# POST http://localhost:3001/api/members
+# Content-Type: application/json
+
+# {
+#   "name": "awd",
+#   "email": ""
+# }
+
+GET http://localhost:3001/api/members
+Content-Type: application/json
+
+# PUT http://localhost:3001/api/members/692059fddd7d9d1e1b5d2a54
+# Content-Type: application/json
+
+# {
+#   "name": "John Doe",
+#   "email": "user1@example.com"
+# }
+
+# DELETE http://localhost:3001/api/members/69205e09f0583c2fe5e406ed
+# Content-Type: application/json
