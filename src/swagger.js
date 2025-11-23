@@ -14,6 +14,10 @@ const options = {
                 url: "http://localhost:3001",
                 description: "Local server",
             },
+            {
+                 url: "https://project-managemeant-nodejs.onrender.com",
+                description: "Production server",
+            }
         ],
         components: {
             schemas: {
